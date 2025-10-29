@@ -46,7 +46,7 @@ namespace QuickSort
 
         static void Main(string[] args)
         {
-            int[] numeros = { 37, 56, 25, 2, 10, 5, 48 };
+            int[] numeros = { 37, 56, 48, 2, 10, 5, 25 };
             QuickSort(numeros, 0, numeros.Length - 1);
 
             Console.WriteLine($"Array ordenado: {string.Join(", ", numeros)}");
